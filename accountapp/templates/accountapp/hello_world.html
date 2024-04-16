@@ -1,10 +1,27 @@
 {% extends 'base.html' %}
 
 {% block content %}
+
+<style>
+    .testing {
+        background-color: white;
+        height: 3rem;
+        width: 3rem;
+    }
+</style>
+
+
     <div style="height: 10rem; background-color: #38df81; border-radius: 1rem; margin: 2rem;">
         <h1>
             testing
         </h1>
+
+        <div style="background-color: white;">block</div>
+        <div class="testing" style="display: block;">inline</div>
+        <div class="testing" style="display: inline;">None</div>
+        <div class="testing" style="display: None;">inline-block</div>
+        <div class="testing";>default</div>
+
     </div>
 
 {% endblock %}
