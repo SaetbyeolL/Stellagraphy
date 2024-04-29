@@ -16,11 +16,16 @@
             testing
         </h1>
 
-        <div style="background-color: white;">block</div>
-        <div class="testing" style="display: block;">inline</div>
-        <div class="testing" style="display: inline;">None</div>
-        <div class="testing" style="display: None;">inline-block</div>
-        <div class="testing";>default</div>
+        <form action="/account/hello_world/" method="post">
+            {% csrf_token %}
+            <input type="submit" class="btn btn-primary" value="POST">
+        </form>
+
+
+        <h1>
+            {{ text }}
+        </h1>
+
 
     </div>
 
