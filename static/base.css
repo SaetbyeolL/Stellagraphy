@@ -1,18 +1,30 @@
 
 
- .stellagraphy_logo {
+ .stellagraphy_logo_header {
     font-family: 'Sedan', serif;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 3.2rem;
+ }
+
+ .stellagraphy_logo_footer {
+    font-family: 'Sedan', serif;
+    font-weight: bold;
+    font-size: 1.4rem;
  }
 
 .stellagraphy_footer_button {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .stellagraphy_footer {
     text-align: center;
     margin-top: 2rem;
+}
+
+.stellagraphy_right_footer{
+    font-family: 'Sedan', serif;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .stellagraphy_header {

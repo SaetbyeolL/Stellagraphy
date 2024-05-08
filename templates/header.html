@@ -1,7 +1,7 @@
 
     <div class="stellagraphy_header">
         <div>
-            <h1 class="stellagraphy_logo">Stellagraphy</h1>
+            <h1 class="stellagraphy_logo_header">Stellagraphy</h1>
         </div>
         <div>
             <span>nav1</span>
@@ -12,6 +12,9 @@
                 <span>Login</span>
             </a>
             {% else %}
+            <a href="{% url 'accountapp:detail' pk=user.pk %}">
+                <span>MyPage</span>
+            </a>
             <form method="post" action="{% url 'accountapp:logout' %}?next={{ request.path }}">
                 {% csrf_token %}
                 <input type="submit" value="Logout">
