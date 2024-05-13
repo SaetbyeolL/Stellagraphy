@@ -1,7 +1,7 @@
-from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.forms import PasswordChangeForm
 
 
-class AccountUpdateForm(UserCreationForm):
+class AccountUpdateForm(PasswordChangeForm):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.fields['username'].disabled = True
+        # self.fields['username'].disabled = True
