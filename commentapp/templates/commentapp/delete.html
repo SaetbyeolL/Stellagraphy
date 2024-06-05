@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div style="text-align: center; max-width: 500px; margin: 4rem auto">
+        <div class="mb-4">
+            <h2>Delete Comment : '{{ target_comment.content }}'</h2>
+            <h5 style="margin-bottom:2.5rem;">Would you want to delete this comment?</h5>
+        </div>
+        <form action="{% url 'commentapp:delete' pk=target_comment.pk %}" method="post">
+            {% csrf_token %}
+            <input type="submit" class="btn btn-danger square-pill col-6 mt-4">
+        </form>
+    </div>
+
+{% endblock %}
