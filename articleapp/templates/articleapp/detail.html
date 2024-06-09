@@ -12,9 +12,9 @@
             <hr>
             <img src="{{ target_article.image.url }}" alt=""
                  style="width: 100%; border-radius: 1rem; margin:0.5rem 0; ">
-            <p>
-                {{ target_article.content }}
-            </p>
+            <div class="text-start">
+                {{ target_article.content | safe }}
+            </div>
 
             {% if target_article.writer == user %}
             <a href="{% url 'articleapp:update' pk=target_article.pk %}"
