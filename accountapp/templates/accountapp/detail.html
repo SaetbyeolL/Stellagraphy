@@ -10,8 +10,10 @@
             <h2 style="font-family: 'NanumSquareB'">
                 {{ target_user.profile.nickname }}
                     {% if target_user == user %}
-                    <a href="{% url 'profileapp:update' pk=target_user.profile.pk %}">
-                        Edit
+                    <a class="material-icons"
+                       style="color: #FFC300; box-shadow: 0 0 4px #ccc; border-radius: 10rem; padding: .3rem;"
+                       href="{% url 'profileapp:update' pk=target_user.profile.pk %}">
+                        edit
                     </a>
                     {% endif %}
             </h2>
@@ -31,15 +33,15 @@
             {% endif %}
 
             {% if target_user == user %}
-            <a href="{% url 'accountapp:update' pk=user.pk %}">
-                <p>
-                    Change Password
-                </p>
+            <a class="material-icons"
+               style="box-shadow: 0 0 4px #ccc; border-radius: 10rem; padding: .3rem; margin-left: .5rem;"
+               href="{% url 'accountapp:update' pk=user.pk %}">
+                manage_accounts
             </a>
-            <a href="{% url 'accountapp:delete' pk=user.pk %}">
-                <p>
-                    Delete Account
-                </p>
+            <a class="material-icons"
+               style="box-shadow: 0 0 4px #ccc; border-radius: 10rem; padding: .3rem; margin-left: .5rem;"
+               href="{% url 'accountapp:delete' pk=user.pk %}">
+                delete
             </a>
             {% endif %}
         </div>
@@ -47,9 +49,6 @@
         <div>
             {% include 'snippets/list_fragment.html' with article_list=object_list %}
         </div>
-
-
-
     </div>
 
 {% endblock %}
