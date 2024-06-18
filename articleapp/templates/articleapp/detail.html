@@ -3,17 +3,18 @@
 {% block content %}
     <div>
         <div style="text-align: center; max-width: 400px; margin: 2rem auto; ">
-            <h1>
+            <h2>
                 {{target_article.title}}
-            </h1>
-            <h5>
-                {{target_article.writer.profile.nickname}}
+            </h2>
+            <h5 style="text-align: left;">
+                Poster: {{target_article.writer.profile.nickname}}
             </h5>
             <hr>
             <img src="{{ target_article.image.url }}" alt=""
-                 style="width: 100%; border-radius: 1rem; margin:0.5rem 0; ">
-            <div class="text-start">
-                {{ target_article.content | safe }}
+                 style="width: 100%; border-radius: 1rem; margin:0 0; ">
+            <div class="text-start" style="margin: 1rem 0.5rem;">
+                <strong>Descriptions:</strong>
+                <div>{{ target_article.content | safe }}</div>
             </div>
 
             {% if target_article.writer == user %}
