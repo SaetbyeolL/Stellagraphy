@@ -15,8 +15,8 @@ services:
     networks:
       - network
     volumes:
-      - static-volume:/data/stellagraphy/staticfiles
-      - media-volume:/data/stellagraphy/media
+      - static-volume:/home/Stellagraphy/staticfiles
+      - media-volume:/home/Stellagraphy/media
   mariadb:
     image: mariadb:10.5
     networks:
