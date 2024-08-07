@@ -7,13 +7,13 @@
                 {{target_article.title}}
             </h2>
             <div style="height: 2rem;">
-                <a href="#">
-                    <i style="vertical-align: middle; font-size: 1.1rem; color: #f77"
+                <a href="{% url 'likeapp:article_like' pk=target_article.pk %}">
+                    <i style="vertical-align: middle; font-size: 1.5rem; color: #ff4b4b"
                         class="material-icons">
                       favorite
                     </i>
                 </a>
-                <span style="vertical-align: middle; font-size: 1.2rem;">
+                <span style="vertical-align: middle; font-size: 1.3rem;">
                     {{target_article.like}}
                 </span>
             </div>
