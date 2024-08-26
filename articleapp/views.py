@@ -1,5 +1,7 @@
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
+
+# Create your views here.
 from django.urls import reverse, reverse_lazy
 from django.utils.decorators import method_decorator
 from django.views.generic import CreateView, DetailView, UpdateView, DeleteView, ListView
@@ -10,8 +12,6 @@ from articleapp.forms import ArticleCreationForm
 from articleapp.models import Article
 from commentapp.forms import CommentCreationForm
 
-
-# Create your views here.
 
 @method_decorator(login_required, 'get')
 @method_decorator(login_required, 'post')
@@ -63,6 +63,9 @@ class ArticleListView(ListView):
     context_object_name = 'article_list'
     template_name = 'articleapp/list.html'
     paginate_by = 15
+
+    def get_queryset(self):
+        return Article.objects.all().order_by('-pk')
 
 
 
