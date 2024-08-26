@@ -7,7 +7,7 @@
             {% if target_user.profile %}
             <img src="{{ target_user.profile.image.url}}" alt="profile"
                  style="height: 12rem; width: 12rem; border-radius: 20rem; margin-bottom: 1.5rem; object-fit: cover;">
-            <h2 style="font-family: 'NanumSquareB'">
+            <h2>
                 {{ target_user.profile.nickname }}
                     {% if target_user == user %}
                     <a class="material-icons"
@@ -23,12 +23,12 @@
             {% else %}
                 {% if target_user == user %}
                 <a href="{% url 'profileapp:create' %}">
-                    <h2 style="font-family: 'NanumSquareB'">
+                    <h2>
                         Create Profile
                     </h2>
                 </a>
                 {% else %}
-                <h2>Nickname not set</h2>
+                <h2>Nickname has not been set</h2>
                 {% endif %}
             {% endif %}
 

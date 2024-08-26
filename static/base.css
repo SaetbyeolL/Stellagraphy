@@ -10,6 +10,7 @@
 }
 
 .stellagraphy_header_navbar{
+    font-family: 'Raleway', sans-serif !important;
     margin: 1rem 0;
 }
 
@@ -51,7 +52,7 @@
     .stellagraphy_header_nav {
     margin: 0 0.4rem;
     display: inline-block;
-}
+    }
 }
 
 
