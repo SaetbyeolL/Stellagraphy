@@ -41,7 +41,10 @@
 <h3>3) Subscribe/Unsubscribe</h3>
 <hr />
 <h4>Subscribe to specific boards to follow their posts, and view all posts from your subscribed boards in the "Subscription" section</h4>
-<br/><br/>
+<div align="center">
+  <img src="https://github.com/SaetbyeolL/Stellagraphy/blob/master/Subscribe.gif" alt="Subscribe Preview" width="700">
+</div>
+<br/>
 
 <h3>4) My Page</h3>
 <hr />
