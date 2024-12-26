@@ -16,8 +16,8 @@
 <br/><br/>
 
 <h1>Overview</h1>
-▪  Created a social media website where users can share their artworks or photos, like others' posts, and leave comments <br/>
-▪  Utilized MagicGrid for dynamic rearrangement of posts, ensuring a seamless and responsive UI across web and mobile <br/>
+▪  Created a social media website where users can share their photos, like others' posts, and leave comments <br/>
+▪  Utilized MagicGrid for dynamic rearrangement of posts, ensuring a seamless and responsive UI across web & mobile <br/>
 ▪  Implemented Docker for containerization and deployment of Django projects <br/>
 ▪  Deployed Django projects using AWS EC2, including instance setup, Docker installation, stack deployment, and domain configuration <br/>
 <br/>
