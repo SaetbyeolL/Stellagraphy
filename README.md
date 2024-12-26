@@ -19,7 +19,34 @@
 ▪  Deployed Django projects using AWS EC2, including instance setup, Docker installation, stack deployment, and domain configuration 
 <br/><br/>
 
- <h1>Function</h1>
+
+ <h1># Function</h1>
  
+<h3>1) Magic Grid Layout</h3>
+<hr />
+<h4>A responsive layout system for dynamically arranging posts</h4>
+<br/><br/>
+
+<h3>2) Commenting and Liking Posts</h3>
+<hr />
+<h4>Users can leave comments and like posts, with likes incrementing in real-time</h4>
+<br/><br/>
+
+<h3>3) Subscribe/Unsubscribe</h3>
+<hr />
+<h4>Subscribe to specific boards to follow their posts, and view all posts from your subscribed boards in the "Subscription" section</h4>
+<br/><br/>
+
+<h3>4) My Page</h3>
+<hr />
+<h4>A personalized dashboard where users can manage their profiles and view posts they have uploaded</h4>
+<br/><br/>
+
+
+
+
+
+
+
 
 
