@@ -1,6 +1,6 @@
 ﻿# Stellagraphy ⭐      http://www.stellagraphy.site/
 <h3>Creating a social media platform(Like pinterest)</h3><br/>
-<div>
+<div align="center">
     <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white">
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
@@ -10,15 +10,17 @@
 </div>
 <br/>
 
-<img src="https://github.com/user-attachments/assets/445fdf49-d4e7-43bc-8f0b-00ac12b30dc1" alt="homepage" width="750" />
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/445fdf49-d4e7-43bc-8f0b-00ac12b30dc1" alt="homepage" width="750" />
+</div>
 <br/><br/>
 
 <h1>Overview</h1>
 ▪  Created a social media website where users can share their artworks or photos, like others' posts, and leave comments <br/>
 ▪  Utilized MagicGrid for dynamic rearrangement of posts, ensuring a seamless and responsive UI across web and mobile <br/>
 ▪  Implemented Docker for containerization and deployment of Django projects <br/>
-▪  Deployed Django projects using AWS EC2, including instance setup, Docker installation, stack deployment, and domain configuration 
-<br/><br/>
+▪  Deployed Django projects using AWS EC2, including instance setup, Docker installation, stack deployment, and domain configuration <br/>
+<br/>
 
 
  <h1># Function</h1>
