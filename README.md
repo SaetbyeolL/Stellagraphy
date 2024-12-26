@@ -36,7 +36,10 @@
 <h3>2) Commenting and Liking Posts</h3>
 <hr />
 <h4>Users can leave comments and like posts, with likes incrementing in real-time</h4>
-<br/><br/>
+<div align="center">
+  <img src="https://github.com/SaetbyeolL/Stellagraphy/blob/master/Like%26Comment.gif" alt="Subscribe Preview" width="700">
+</div>
+<br/>
 
 <h3>3) Subscribe/Unsubscribe</h3>
 <hr />
