@@ -23,7 +23,7 @@
 <br/>
 
 
- <h1>Function</h1>
+ <h1>Features</h1>
  
 <h3>1) Magic Grid Layout</h3>
 <h4>A responsive layout system for dynamically arranging posts</h4>
