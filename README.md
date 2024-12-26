@@ -37,7 +37,7 @@
 <hr />
 <h4>Users can leave comments and like posts, with likes incrementing in real-time</h4>
 <div align="center">
-  <img src="https://github.com/SaetbyeolL/Stellagraphy/blob/master/Like%26Comment.gif" alt="Subscribe Preview" width="700">
+  <img src="https://github.com/SaetbyeolL/Stellagraphy/blob/master/Like%26Comment.gif" alt="CommentLike Preview" width="700">
 </div>
 <br/>
 
@@ -52,9 +52,10 @@
 <h3>4) My Page</h3>
 <hr />
 <h4>A personalized dashboard where users can manage their profiles and view posts they have uploaded</h4>
-<br/><br/>
-
-
+<div align="center">
+  <img src="https://github.com/SaetbyeolL/Stellagraphy/blob/master/MyPage.gif" alt="MyPage Preview" width="700">
+</div>
+<br/>
 
 
 
