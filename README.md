@@ -28,7 +28,10 @@
 <h3>1) Magic Grid Layout</h3>
 <hr />
 <h4>A responsive layout system for dynamically arranging posts</h4>
-<br/><br/>
+<div align="center">
+  <img src="https://github.com/SaetbyeolL/Stellagraphy/blob/master/MagicGrid.gif" alt="MagicGrid Preview" width="700">
+</div>
+<br/>
 
 <h3>2) Commenting and Liking Posts</h3>
 <hr />
