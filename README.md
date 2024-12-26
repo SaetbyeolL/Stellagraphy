@@ -33,7 +33,15 @@
 </div>
 <br/>
 
-<h3>2) Commenting and Liking Posts</h3>
+<h3>2) Photo Upload</h3>
+<hr />
+<h4>Users can upload photos directly to specific boards, allowing them to share their content with others in an organized manner</h4>
+<div align="center">
+  <img src="https://github.com/SaetbyeolL/Stellagraphy/blob/master/Upload.gif" alt="Upload Preview" width="700">
+</div>
+<br/>
+
+<h3>3) Commenting and Liking Posts</h3>
 <hr />
 <h4>Users can leave comments and like posts, with likes incrementing in real-time</h4>
 <div align="center">
@@ -41,7 +49,7 @@
 </div>
 <br/>
 
-<h3>3) Subscribe/Unsubscribe</h3>
+<h3>4) Subscribe/Unsubscribe</h3>
 <hr />
 <h4>Subscribe to specific boards to follow their posts, and view all posts from your subscribed boards in the "Subscription" section</h4>
 <div align="center">
@@ -49,7 +57,7 @@
 </div>
 <br/>
 
-<h3>4) My Page</h3>
+<h3>5) My Page</h3>
 <hr />
 <h4>A personalized dashboard where users can manage their profiles and view posts they have uploaded</h4>
 <div align="center">
